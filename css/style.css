@@ -193,5 +193,7 @@ p {
 }
 .in_progress{
     color: #d0d4d7;
-    
+    line-height: 2;
+    width: 70%;
+    margin: auto;
 }
