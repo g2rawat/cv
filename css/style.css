@@ -1,4 +1,5 @@
 html {
+    scroll-behavior: smooth;
     text-size-adjust: 100%;
 }
 
@@ -121,14 +122,6 @@ body {
     font-size: 5.5rem;
 
 }
-.profile {
-    /* width: 70%; */
-    /* margin: 50px 50px 50px; */
-    /* border-radius: 70px;
-    background-color: #112240;
-    padding: 50px;
-    margin: 0 0 100px; */
-}
 
 /* --------------------------------------------------------- */
 .span {
@@ -236,6 +229,14 @@ a {
     float: right;
     margin: 20px;
 }
+.git_img {
+    position: relative;
+    bottom: 10%;
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
 .skill_img2 {
     /* position: relative; */
     /* top: 70px; */
@@ -277,6 +278,17 @@ p {
     font-size: 25px;
     /* text-align: justify; */
 }
+
+.skill-row_git {
+    border-bottom: 100%;
+    border-width: 20%;
+    border-color: #64FFDA;
+}
+
+.git_p {
+    line-height: 1.5;
+    font-size: 25px;
+}
 .my_img_p {
     line-height: 2;
     width: 70%;
@@ -315,9 +327,27 @@ p {
     text-decoration: none;
 }
 .contact-message {
+    text-align: center;
     width: 40%;
     margin: 30px auto;
 
+}
+
+.more {
+    width: 50px;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #ccd6f6;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
 }
 
 button {
@@ -391,9 +421,18 @@ button:active {
 
 }
 .illustration_1 {
+    border-radius: 5%;
     width: 16rem;
     margin: 100px 50px;
 
+}
+.img_box {
+    background-color: #112240;
+    /* padding: 50px; */
+    border-radius: 70px;
+    margin: 1px;
+    position: relative;
+    display: inline-block;
 }
 .illustration_2 {
     margin: 100px auto;
@@ -416,4 +455,131 @@ button:active {
 .bg {
     background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
     background-blend-mode: screen, overlay, hard-light, normal;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+body {
+    background-color: #0A192F;
+    color: #8892b0;
+    margin: 0;
+    /* background-color: black; */
+    text-align: center;
+}
+h2 {
+    font-family: 'NTR', sans-serif;
+    font-size: 2.5rem;
+    margin: 2rem auto 19;
+    font-weight: bold;
+    color: #CCD6F6;
+
+}
+a {
+    text-decoration: none;
+}
+.header {
+    text-align: left;
+    color: #64FFDA;
+    font-size: 1.5rem;
+}
+.sub_img {
+    color: aqua;
+    margin: 10%;
+}
+.portfolio-photo {
+    float: left;
+    width: 20%;
+}
+.img {
+    padding-top: 2%;
+    width: 90%;
+}
+.title {
+    margin: o auto;
+    width: 80%;
+}
+
+.img {
+    width: 90%;
+    margin: 5% auto;
+    background-color: #0c0b0b;
+    border-radius: 5%;
+}
+
+hr {
+    width: 60%;
+    /* margin: 0; */
+}
+
+.icon {
+    float: left;
+    width: 20%;
+    padding-right: 2%;
+    margin-left: 5%;
+
+}
+
+.three {
+    width: 100%;
+    background-color: #112240;
+    /* padding: 100px auto 100px auto; */
+    height: 100px;
+    padding: 30px 0 10px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+}
+
+.footer-link {
+    font-size: large;
+    color: #ccd6f6;
+    margin: 0 50px;
+}
+
+.footer-link:hover {
+    color: #64FFDA;
+    margin: 0 50px;
+    text-decoration: none;
+}
+
+.copy_right {
+    color: #edeff0;
+    font-size: 0.6rem;
+    padding-top: 30px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.canvas {
+    position: relative;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.base1 {
+    /* background-color: #8892b0; */
+    position: absolute;
+    top: 2.1rem;
+    left: 3.125rem;
+
+}
+.base_home:hover {
+    color: #64FFDA;
+}
+.base {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    background-color: #0A192F;
+    z-index: 200;
+}
+.base_home {
+    text-align: left;
+    margin: 0 10px;
+    padding-right: 20px;
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
 }
