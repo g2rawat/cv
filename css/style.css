@@ -125,10 +125,7 @@ body {
 
 /* --------------------------------------------------------- */
 .span {
-    /* color: rgb(100,255,218); */
-    /* color: linear-gradient(90deg, rgba(100,255,218,1) 0%, rgba(197,31,92,1) 43%, rgba(33,191,198,1) 78%, rgba(252,176,69,1) 100%); */
     color: rgb(100,255,218);
-    /* background: linear-gradient(90deg, rgba(100,255,218,1) 0%, rgba(197,31,92,1) 43%, rgba(33,191,198,1) 78%, rgba(252,176,69,1) 100%); */
 }
 
 h1 {
@@ -136,14 +133,43 @@ h1 {
     font-family: 'NTR', sans-serif;
     font-size: 5rem;
     margin: auto 0;
-    /* color: #5F6F94; */
-    /* color: #CFD2CF; */
-    /* color: #B7C4CF; */
-    /* color: #BFACE0; */
     color: #ccd6f6;
     font-weight: 600;
     line-height: 4rem;
+}
+.dashboard_text1 {
+    color: #64FFDA;
+}
+.dashboard_text1:hover {
+    text-decoration: underline;
+}
+.unedrline {
+    color: #64FFDA;
+}
 
+.dashboard_img {
+    margin-top: 5%;
+}
+.twwo {
+    margin-top: 0;
+}
+.dot {
+    color: #64FFDA;
+    padding-right: 2%;
+}
+.dashboard {
+    color: #64FFDA;
+    padding-left: 10%;
+    text-align: left;
+}
+.dashboard_text {
+    padding-left: 10%;
+    text-align: left;
+}
+.dash_img {
+    border-radius: 15px;
+    text-align: left;
+    width: 80%;
 }
 /* --------------------------------------------------------- */
 
@@ -224,15 +250,17 @@ a {
 .my_img {
     width: 166.344px;
 }
+
 .skill_img1 {
     width: 30%;
     float: right;
     margin: 20px;
 }
+
 .git_img {
     position: relative;
     bottom: 10%;
-    width: 30%;
+    width: 25%;
     float: left;
     margin: 20px;
 }
